@@ -67,6 +67,14 @@ h1, h2, h3 {
 	border-bottom: 5px solid #E7E08B;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#family {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 5%;
+	background: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .image {
 	width: 60%;
 	margin: 0 auto;
