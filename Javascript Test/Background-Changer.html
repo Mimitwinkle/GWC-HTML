@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script>
+      /*var count = 0;
+
+      while (count<11) {
+        document.write(count * 5 + "<br/>")
+        count = count*5
+      }
+      document.write("<br/>")
+      for (count = 0; count < 11; count++) {
+        document.write(count * 5 "<br/>")
+      }*/
+function changer(button) {
+  if (button.className === 'visible') {
+    document.body.style.backgroundColor = "pink";
+    button.className = '';
+}
+  else {
+    document.body.style.backgroundColor = "white";
+    button.className = '';
+}
+}
+
+    </script>
+  </head>
+  <body>
+
+  <button onclick="changer(this)">Change Background</button>
+
+  </body>
+
+
+  <style>
+  #box {
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+  }
+  </style>
+</html>

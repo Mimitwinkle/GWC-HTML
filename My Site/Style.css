@@ -1,0 +1,96 @@
+body {
+	background-image: url("waves.png");
+	margin: 0;
+}
+h1, h2, h3 {
+	color: #1A727F;
+}
+.top {
+	width: 100%;
+	height: 150px;
+	top: 0;
+}
+.title {
+	width: 50%;
+	padding-top: 50px;
+	font: 35pt calibri;
+	float: left;
+	text-align: center;
+}
+.title b {
+	padding: 3px 5px;
+	letter-spacing: 1px;
+	background: #4E5166;
+	color: #FFF;
+}
+.navbar {
+	width: 50%;
+	float: right;
+	text-align: center;
+	padding-top: 60px;
+}
+.navbar a:link, a:visited {
+	margin: 50px 15px 0px 15px;
+	text-decoration: none;
+	font: 21pt calibri;
+	color: #1A727F;
+	border-bottom: 1px solid #1A727F;
+	padding-bottom: 4px;
+}
+.navbar a:hover, a:active {
+	background: #1A727F;
+	color: #FCFCFC;
+}
+.q {
+	width: 50%;
+	padding-bottom: 50px;
+	margin: 50px auto;
+}
+.quoteborder {
+	height: 4px;
+	margin: 100px 0 25px 0;
+	border-left: 80px solid #1A727F;
+}
+.quote {
+	color: #1A727F;
+	font: 20pt calibri;
+	text-align: justify;
+}
+.wrapper {
+	margin: 50px auto;
+	padding: 5%;
+	width: 60%;
+	background: #fcfcfc;
+	font-family: calibri;
+	color: #1d1e18;
+	border-top: 5px solid #E7E08B;
+	border-bottom: 5px solid #E7E08B;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#family {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 5%;
+	background: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 5%;
+	background: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blurb {
+	margin-top: 20px;
+	font-family: calibri;
+	color: #1d1e18;
+	text-align: center;
+}
+.float {
+	width: 30%;
+	padding: 5%;
+	float: right;
+}
